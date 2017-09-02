@@ -1,0 +1,2 @@
+source ‘http://rubysorce.com’
+gem ‘rspec’

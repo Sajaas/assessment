@@ -1,0 +1,16 @@
+string = 'variable'
+number = 42
+float = 1.4
+array = ['Thomas', 'Amanda']
+
+car1 = {wheels: 4, max_speed: 30, color: 'purple'}
+car2 = {wheels: 2, max_speed: 400, color: 'green'}
+cars = [car1, car2]
+cars[1][:color]
+
+Q: How do you initialize rspec in a folder? Do it in our cars folder.
+A:  1. Touch Gemfile, add source ‘http://rubysorce.com’, gem ‘rspec’
+    2. rspec --init
+
+Q: We would ordinarily have written our tests first, then written code to make them pass. Why?
+A: Partly because it makes the code easier to test. Partly because it requires you to write simpler and more structured code, which makes it easier to read.
